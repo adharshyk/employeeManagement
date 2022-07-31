@@ -1,0 +1,6 @@
+
+
+<select  class="form-select" aria-label="Default select example" >
+    <option selected>Select By  Department</option>
+    <option   *ngFor ="let dep of departments"  ng-model="dep.deptNo">{{dep.dName}}</option>   
+ </select>
